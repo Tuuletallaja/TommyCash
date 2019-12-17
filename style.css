@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+:root {
+    height:100%;
+    box-sizing: border-box;
+    font-family: 'Solway', serif;
+    color: rgb(167, 0, 0);
+    font-size: 26px;
+    scroll-behavior: smooth
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.main {
+    text-align: left;
+}
+
+.hero-h1 {
+    text-align: center;
+    color: rgb(145, 0, 0);
+    font-family: 'Michroma', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1920px;
+    padding: 1rem 1rem;
+    background-image: url(https://cdn180.picsart.com/232473572004212.png?r1024x1024);
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: hsl(19, 82%, 48%);
+}
+
+nav a:hover {
+    color: red;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    max-height: 555px;
+    margin: auto;
+    justify-content: flex-start;
+    align-content: space-around;
+}
+
+.container-second {
+    display: flex;
+    max-width: 1440px;
+    max-height: 50px;
+    margin: auto;
+    justify-content: flex-start;
+    align-content: space-around;
+}
+
+.container-third {
+    display: flex;
+    max-width: 1440px;
+    max-height: 980px;
+    margin: auto;
+    justify-content: flex-start;
+    align-content: space-around;
+}
+
+.h1 {
+    text-align: center;
+    background-color: cadetblue;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+
+  .child {
+    width: 40%;
+    height: 40%;
+    background-color: skyblue;
+    }
+
+.hero-text {
+    max-width: 300px;
+    flex: 1;
+}
+
+.hero-text-bigger {
+    max-width: 300px;
+    flex: 1;
+    font-size: 26px;
+    color:rgba(255, 0, 0, 0.493) ;
+    
+}
+
+.hero-text-even-bigger {
+    max-width: 300px;
+    flex: 1;
+    font-size: 26px;
+    color:rgb(229, 255, 0) ;
+}
+
+.hero-button {
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: 100px;
+    background-color: green;
+    color: white;
+}
+
+.hero-button-orange {
+    padding: .6rem .8rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+.hero {
+    font-size: 22px;
+    padding: 5rem 0;
+}
+
+header {
+    background-image: url("https://i.ytimg.com/vi/Ab_KVbMYR3s/maxresdefault.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 980px;
+   }
+
+article {
+    font-size: 26px;
+    height: 980px;
+}
+
+aside {
+    font-size: 26px;
+    height: 980px;
+    background-image: url(https://i4.ytimg.com/vi/JjJ90jhS84A/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-image: url("https://i.ytimg.com/vi/Ab_KVbMYR3s/maxresdefault.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    text-align: center;
+    color: white;
+}
+
+body {
+    text-emphasis: none;
+    background: url(https://thumbs.gfycat.com/EnlightenedFarflungFieldmouse-size_restricted.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+

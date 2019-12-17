@@ -132,11 +132,11 @@ nav a:hover {
 }
 
 header {
-    background-image: url("https://i.ytimg.com/vi/Ab_KVbMYR3s/maxresdefault.jpg");
+    background-image: url("https://i0.wp.com/welovebudapest.com/en/wp-content/uploads/sites/3/2018/01/739.jpg?resize=1800%2C900&ssl=1");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 980px;
+    height: 1200px;
    }
 
 article {
@@ -163,11 +163,54 @@ footer {
 }
 
 body {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
     text-emphasis: none;
-    background: url(https://thumbs.gfycat.com/EnlightenedFarflungFieldmouse-size_restricted.gif) no-repeat center center fixed;
+    background: url(https://s.err.ee/photo/crop/2018/12/30/578137ha409t27.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size:cover;
     background-size: cover;
 }
 
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: rgb(51, 51, 51);
+    color: white;
+  }
+
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }

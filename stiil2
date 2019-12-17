@@ -3,7 +3,7 @@
 :root {
     height:100%;
     box-sizing: border-box;
-    font-family: 'Girassol', cursive;
+    font-family: 'EB Garamond', serif;
     color: rgb(0, 0, 0);
     font-size: 26px;
     scroll-behavior: smooth;
@@ -22,7 +22,8 @@
 .hero-h1 {
     text-align:center;
     color: rgb(0, 0, 0);
-    font-family: 'Girassol', cursive;
+    font-family: 'EB Garamond', serif;
+
 }
 
 nav {
@@ -73,7 +74,8 @@ nav a:hover {
 .h1 {
     text-align: center;
     background-color: cadetblue;
-    font-family: 'Girassol', cursive;
+    font-family: 'EB Garamond', serif;
+
 }
 
 .parent {
@@ -98,7 +100,7 @@ nav a:hover {
 .hero-text-bigger {
     max-width: 300px;
     flex: 1;
-    font-size: 26px;
+    font-size: 24px;
     color:rgba(0, 0, 0) ;
     
 }
@@ -106,8 +108,8 @@ nav a:hover {
 .hero-text-even-bigger {
     max-width: 300px;
     flex: 1;
-    font-size: 26px;
-    color:rgb(229, 255, 0) ;
+    font-size: 24px;
+    color:rgb(255, 255, 255) ;
 }
 
 .hero-button {
@@ -147,7 +149,7 @@ article {
 aside {
     font-size: 26px;
     height: 980px;
-    background-image: url(https://media0.giphy.com/media/L0NE4nSdWeV6Ocp84z/giphy.gif);
+    background-image: url(https://s.getshow.ru/image/x650/9/5/52-2792.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

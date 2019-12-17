@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        <script type="javascript" src="lambist.js"></script>
+    -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>‎Tommy Cash</title>
+</head>
+<body>
+    <header id="home">
+          <div id="navbar">
+            <a class="active" href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#song">Songs</a>
+            <a href="#third">Third</a>
+          </div>
+        <h1 class="hero-h1"> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Tommy Cash</h1>     
+    </header>
+    
+    <article id="article">
+        
+        <div class="container" id="about">
+            <div>
+                <p class="hero-text-bigger">
+                    <p class="hero-text">Tomas Tammemets (born 18 November 1991), better known as Tommy Cash (sometimes stylised as TOMM¥ €A$H), is an Estonian rapper, singer, and conceptual artist. </p>
+                <p class="hero-text-bigger">
+                    It’s me, but I don’t know it’s me. The only reason I know it’s me is because I see pictures. It’s kind of like an alter-ego thing or a side-effect of huffing propane.
+                </p>
+            </div>
+            <div>
+                <img src="pics/683727h6ec7t27.jpg" alt="">
+            </div>
+        </div>
+       
+    </article>
+
+
+    <aside id="footer">
+        
+        <div class="container-third hero">
+            <p class="hero-text-even-bigger"> 
+                    Tanner Petulla, known professionally as Getter, is an American DJ, producer, rapper, actor and comedian from San Jose, California.
+
+                    Petulla was signed to Datsik's label Firepower Records in 2012, while also releasing through other labels such as Rottun Recordings and OWSLA. Petulla has collaborated with some big-name artists such as Datsik, Skrillex, Borgore, and Suicideboys, and also had Liquid Stranger remix his song "Ill Shit".
+            </p>
+            <p class="hero-text-even-bigger"> 
+            </p>
+            <p class="hero-text-even-bigger"> 
+            </p>
+            <p class="hero-text-even-bigger"> 
+            </p>
+            <p class="hero-text-even-bigger">
+                    I swear I could spot a junkie from a kilometre and tell you exactly what drug he was on."
+
+In his youth, Cash was a graffiti artist who was often running from the police, sometimes being caught and arrested for vandalism.[6][7] Cash performed "rather well" in school until age 15, when he began smoking cannabis. He has stated that his drug use led him to be "ejected" from schooling.[3] He never graduated from secondary school, despite sitting for exams, and later took up painting and dancing in place of academics.[
+            </p>
+</aside>
+
+<footer>
+    <p>
+    </p>
+</footer>
+
+</body>
+</html>

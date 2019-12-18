@@ -65,10 +65,11 @@ nav a:hover {
 
 .container-third {
     display: flex;
+    flex-wrap: wrap;
     max-width: 1440px;
     max-height: 980px;
     margin: auto;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-content: space-around;
 }
 
@@ -115,21 +116,6 @@ nav a:hover {
     color:rgb(255, 255, 255) ;
 }
 
-.hero-button {
-    padding: .5rem 1.5rem;
-    border: none;
-    border-radius: 100px;
-    background-color: green;
-    color: white;
-}
-
-.hero-button-orange {
-    padding: .6rem .8rem;
-    border: none;
-    border-radius: 10px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
 
 .hero {
     font-size: 22px;
@@ -141,6 +127,7 @@ header {
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 980px;
    }
 
@@ -155,6 +142,7 @@ aside {
     background-image: url(https://s.getshow.ru/image/x650/9/5/52-2792.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center top;
 }
 
 footer {

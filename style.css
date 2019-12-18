@@ -64,9 +64,7 @@ nav a:hover {
     display: flex;  
     flex-wrap: wrap;
     max-width: 1920px;
-    max-height: 555px;
-    margin: auto;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: space-around;
 }
 
@@ -198,7 +196,6 @@ body {
 
 
 .videoWrapper {
-    flex: 1;
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;

@@ -27,11 +27,28 @@
 }
 
 #navbar {
+    overflow:hidden;
+    background-color: #333;
     display: flex;
     justify-content: flex-end;
     max-width: 1920px;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
+    position:fixed;
+    z-index: 999;
+    background-image: url(https://cdn180.picsart.com/232473572004212.png?r1024x1024);
 }
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .content {
+    padding: 16px;
+  }
 
 nav a {
     margin: 0 20px;

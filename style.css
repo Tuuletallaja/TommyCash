@@ -112,6 +112,8 @@ nav a:hover {
 .hero-text {
     max-width: 300px;
     flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .hero-text-bigger {

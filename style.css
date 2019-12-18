@@ -154,9 +154,13 @@ header {
 	height: 100%;
 }
 
+iframe {
+    padding-bottom: 20px;
+}
+
 article {
     font-size: 26px;
-    height: 980px;
+    height: auto;
 }
 
 aside {

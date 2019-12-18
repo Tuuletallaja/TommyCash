@@ -6,3 +6,6 @@ Siia tuleb lehekülg, mis tutvustab artisti Tommy Cash.
 * [Figma](https://www.figma.com/) - Veebilehe disanimine
 * [Zone](https://www.zone.ee/) - Veebilehe majutamine
 * [Github](https://github.com/Tuuletallaja/TommyCash/) - Kasutame GitHubi ülesande lisamiseks ja haldamiseks.
+
+# Figma link
+https://www.figma.com/file/tgxcnWt1T5rYGkNZmlVCll/Untitled
